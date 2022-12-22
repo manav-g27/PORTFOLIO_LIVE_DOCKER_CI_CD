@@ -1,0 +1,83 @@
+#main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/img/banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sub-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+
+#pro_pic {
+    width: 30vw;
+    height: auto;
+}
+
+
+#main-div h2 {
+    color: #8d8d8d;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+}
+
+#main-div h1 {
+    color: #fff;
+    font-size: 56px;
+    line-height: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+}
+
+#text-area
+{
+    padding: 15vh;
+}
+
+.vvd
+{
+    border: 2px solid white;
+    color: #fff;
+    padding: 1vw;
+    animation: fadeIn 1s 1.8s backwards;
+}
+
+.vvd:hover
+{
+    background-color: #fff;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+
+

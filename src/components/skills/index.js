@@ -1,0 +1,67 @@
+import React from "react";
+import "./index.css";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import { Container, Row, Col } from "react-bootstrap";
+import meter1 from "../../assets/img/meter1.svg";
+const Skills = () => {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+
+  return (
+    <div id="skills_main">
+      <div className="skill" id="skills">
+        <Container>
+          <Row>
+            <Col>
+              <div className="skill-bx">
+                <br></br>
+                <Carousel
+                  responsive={responsive}
+                  infinite={true}
+                  className="skill-slider"
+                >
+                  <div className="item">
+                    <img src={meter1} alt="#"></img>
+                    <h5>Web Developer</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter1} alt="#"></img>
+                    <h5>Brand Identity</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter1} alt="#"></img>
+                    <h5>Logo Design</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter1} alt="#"></img>
+                    <h5>HTML</h5>
+                  </div>
+                </Carousel>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </div>
+  );
+};
+
+export default Skills;

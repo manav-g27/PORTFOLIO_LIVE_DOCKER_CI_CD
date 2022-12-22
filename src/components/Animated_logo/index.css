@@ -1,0 +1,44 @@
+.app
+{
+    position: relative;
+}
+
+.App1
+{
+    position: relative;
+    animation: m2 1s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+
+@keyframes m2 {
+    from
+    {
+        opacity: 1;
+    }
+    to
+    {
+        opacity: 0;
+    }
+}
+
+.App2
+{
+    top: 0;
+    left:0;
+    opacity: 0;
+    position: absolute;
+    animation: m 2s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+@keyframes m {
+    from{
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+        z-index: 99;
+    }
+}

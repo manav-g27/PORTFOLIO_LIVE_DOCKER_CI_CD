@@ -1,0 +1,32 @@
+#about_main
+{
+    background-image: url('../../assets/img/color-sharp.png');
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+
+#about_main h2 {
+    color: #8d8d8d;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+}
+
+#about_main h1 {
+    color: #fff;
+    font-size: 56px;
+    line-height: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+}

@@ -1,0 +1,56 @@
+#contact_main
+{
+    margin-top: 20vh;
+    position: relative;
+}
+
+#subc1
+{
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+#contact_main h3
+{
+    font-size: 25px;
+}
+
+#contact_main span
+{
+    background: #A31A9A;
+background: linear-gradient(to right, #A31A9A 31%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+#subc2
+{
+    padding-left: 5vw;
+}
+
+#ts
+{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 90;
+    height: 30vh;
+}
+#contact_main #content
+{
+    position: relative;
+    top:0;
+    left:0;
+    z-index: 99;
+}
+#tsparticles {   
+    height: 50vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+  }
