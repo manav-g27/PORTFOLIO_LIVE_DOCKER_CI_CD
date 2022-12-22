@@ -22,7 +22,7 @@ const Skills2 = () => {
     <div id='skl'></div>
       <div id="skill2_maindiv">
         <div id="skill2_subdiv">
-          <div>
+          <div id='skt'>
             <div>
               <h1>
                 <AnimatedLetters

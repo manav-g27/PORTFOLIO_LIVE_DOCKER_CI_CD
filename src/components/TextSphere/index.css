@@ -5,12 +5,13 @@
 .text-shpere {
     position: relative;
     top: 0;
-    width: 100%;
+    width: 30vw;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 4vw;
+    right: 3vw;
 }
 
 .tagcloud {
