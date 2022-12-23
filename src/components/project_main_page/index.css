@@ -98,3 +98,18 @@
     height: 15vh;
     width: auto;
 }
+
+@media only screen and (max-width: 768px) 
+{
+    #main_div_pro{
+        position: relative;
+        height: 20vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+    }
+    
+    
+}

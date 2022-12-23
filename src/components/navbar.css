@@ -1,7 +1,7 @@
 nav.navbar {
     padding: 15px 0;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     z-index: 9999;
     transition:  0.32s ease-in-out;
@@ -144,4 +144,17 @@ nav.navbar {
   }
   nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
       border-color: transparent;
+
+  }
+
+  @media only screen and (max-width: 768px) 
+  {
+    .container
+    {
+      background-color: #121212;
+    }
+    .navbar-light, .navbar, .navbar-expand-md
+    {
+        padding: 0 !important;
+    }
   }

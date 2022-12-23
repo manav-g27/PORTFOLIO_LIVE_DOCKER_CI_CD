@@ -4,6 +4,9 @@
     padding: 5vh;
     border-radius: 7px;
     margin: 3vh;
+    box-shadow: -1px 0px 24px -4px rgba(237,237,237,0.75);
+-webkit-box-shadow: -1px 0px 24px -4px rgba(237,237,237,0.75);
+-moz-box-shadow: -1px 0px 24px -4px rgba(237,237,237,0.75);
 }
 
 #projmain h1
@@ -48,4 +51,38 @@ border-radius: 4px;
 {
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 768px)
+{
+    #projmain
+{
+    border: 1px solid grey;
+    padding: 3vh;
+    border-radius: 7px;
+    margin: 3vh;
+    box-shadow: -1px 0px 24px -4px rgba(237,237,237,0.75);
+-webkit-box-shadow: -1px 0px 24px -4px rgba(237,237,237,0.75);
+-moz-box-shadow: -1px 0px 24px -4px rgba(237,237,237,0.75);
+}
+
+#projmain a button
+{
+color: white;
+font-size: 20px;
+border: 1px solid grey;
+padding: 7px;
+border-radius: 4px;
+}
+
+#projmain a button:hover
+{
+    transform: scale(1.1);
+    transition: all .7s ease-in-out;
+}
+#projmain #projimg img
+{
+    height: auto;
+    width: 80vw;
+}
 }
