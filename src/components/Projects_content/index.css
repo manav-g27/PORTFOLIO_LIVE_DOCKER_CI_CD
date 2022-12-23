@@ -1,6 +1,7 @@
 #prj
 {
-    height: 50vh;
-    background-color: black;
-    text-align: center;
+    margin-top: 19vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }

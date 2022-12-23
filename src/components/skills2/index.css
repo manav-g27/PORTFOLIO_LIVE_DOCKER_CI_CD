@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
+    padding-bottom: 10vh;
 }
 
 #skill2_subdiv
@@ -32,9 +33,4 @@
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
-}
-
-#skt
-{
-    width: 40vw;
 }

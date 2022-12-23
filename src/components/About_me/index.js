@@ -1,18 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./index.css";
 import AnimatedLetters from "../AnimatedLetters";
-import {
-    faAngular,
-    faCss3,
-    faGitAlt,
-    faHtml5,
-    faJsSquare,
-    faReact,
-  } from '@fortawesome/free-brands-svg-icons';
-
-  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './index.scss'
-
+import aboutimg from '../../assets/img/contact-img.svg'
 const Aboutme = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
   let name = "About me";
@@ -26,6 +15,23 @@ const Aboutme = () => {
       clearTimeout(lot);
     };
   }, []);
+
+  useEffect(() => {
+    document.addEventListener('scroll',()=>{
+        const z = document.getElementById('aboutimgset')
+      const client_height= document.documentElement.clientHeight
+      const memorySectionY = z.getBoundingClientRect().y;
+        
+      if(client_height>memorySectionY)
+      {
+        z.setAttribute("class","tilt-in-fwd-tr")
+      }
+      else
+      {
+        z.setAttribute("class","")
+      }
+    })
+  }, [])
 
   return (
     <>
@@ -41,8 +47,8 @@ const Aboutme = () => {
           <br></br>
           <h2>
             <p>
-              I'm a very ambitious front-end developer looking for a role in an
-              established IT company with the opportunity to work with the
+              I'm a very ambitious MERN-stack developer looking for a role in an
+              established company with the opportunity to work with the
               latest technologies on challenging and diverse projects.
             </p>
             <p align="LEFT">
@@ -50,35 +56,13 @@ const Aboutme = () => {
               improving my chops one design problem at a time.
             </p>
             <p>
-              If I need to define myself in one sentence that would be a family
-              person, father of a beautiful daughter, a sports fanatic,
-              photography enthusiast, and tech-obsessed!!!
+              If I need to define myself in one sentence that would be a team
+              player,a sports fanatic,photography enthusiast, and tech-obsessed!!!
             </p>
           </h2>
         </div>
         <div>
-        <div className="stage-cube-cont">
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-            </div>
-          </div>
-        </div>
+          <img src={aboutimg} id='aboutimgset' alt="#"></img>
         </div>
       </div>
     </>

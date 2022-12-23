@@ -1,9 +1,12 @@
 import React from 'react'
+import ProjectContainer from './content'
 import './index.css'
+import {data} from './content/data'
 const ProjectsC = () => {
   return (
-    <div
-    id='prj'>Projects</div>
+    <div id='prj'>
+      {data.map((e)=><ProjectContainer {...e}></ProjectContainer>)}
+    </div>
   )
 }
 

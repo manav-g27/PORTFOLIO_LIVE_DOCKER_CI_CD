@@ -1,0 +1,51 @@
+#projmain
+{
+    border: 1px solid grey;
+    padding: 5vh;
+    border-radius: 7px;
+    margin: 3vh;
+}
+
+#projmain h1
+{
+    text-align: center;
+}
+
+#projmain a button
+{
+color: white;
+font-size: 20px;
+border: 1px solid grey;
+padding: 7px;
+border-radius: 4px;
+}
+
+#projmain a button:hover
+{
+    transform: scale(1.1);
+    transition: all .7s ease-in-out;
+}
+#projmain #projimg img
+{
+    height: 50vh;
+    width: auto;
+}
+
+#projmain:hover #projimg img
+{
+    transform:scale(1.09) ;
+    transition: 1s ease-in-out;
+}
+
+#projmain #projimg
+{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#btn-set-proj
+{
+    display: flex;
+    justify-content: center;
+}
