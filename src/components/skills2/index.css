@@ -35,7 +35,7 @@
     font-weight: 400;
 }
 
-@media only screen and (max-width: 768px) 
+@media (max-width: 900px)
 {
     #skill2_maindiv
 {
@@ -44,7 +44,6 @@
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    margin-top: 40vh;
 }
 
 #skill2_subdiv
