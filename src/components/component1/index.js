@@ -42,7 +42,7 @@ const Component1 = () => {
             <br></br>
                 <Nav.Link href='/contact'><button className="vvd"><span>Let’s Connect</span></button></Nav.Link>
           </div>
-          <div>
+          <div id='img-com'>
             <img src = {profile} alt='#' id='pro_pic' className="floating"/>
           </div>
         </div>

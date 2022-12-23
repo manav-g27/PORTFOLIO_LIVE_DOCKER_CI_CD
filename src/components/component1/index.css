@@ -90,16 +90,18 @@
         background-image: url('../../assets/img/banner-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
+        margin-bottom: -10vh;
     }
     
     #sub-div {
-        display: flex;
+        display: block;
         justify-content: space-between;
         align-items: center;
-        width: 100vw;
+        width: 80vw;
         padding-left: 0vw;
         padding-right: 0vw;
         flex-direction: column;
+        position: absolute;
     }
     
     
@@ -130,7 +132,7 @@
     
     #text-area
     {
-        padding:10px;
+        padding:0px;
     }
     
     .vvd
@@ -163,6 +165,11 @@
         50%  { transform: translate(0, 15px); }
         100%   { transform: translate(0, -0px); }   
     }
-    
+    #img-com
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
 }
