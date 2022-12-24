@@ -139,3 +139,13 @@
   }
 
   }
+
+/* for phones with small height */
+
+  @media only screen and (max-width: 768px) and (max-height:780px)
+  {
+    #about_main
+{
+    margin-bottom: 10vh;
+}
+  }

@@ -173,3 +173,20 @@
     }
     
 }
+
+/* for phones with small height */
+
+@media only screen and (max-width: 768px) and (max-height:690px)
+{
+    #main-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        background-image: url('../../assets/img/banner-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: -10vh;
+        margin-top:20vw ;
+    }
+}

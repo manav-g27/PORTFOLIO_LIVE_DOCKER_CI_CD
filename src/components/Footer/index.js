@@ -60,7 +60,7 @@ const Footer = () => {
             <Nav.Link href='/'><h3>Home</h3></Nav.Link>
           </div>
           <div>
-          <Nav.Link href='#skl'><h3>Skills</h3></Nav.Link>
+          <Nav.Link href='/#skl'><h3>Skills</h3></Nav.Link>
           </div>
           <div>
           <Nav.Link href='/project'><h3>Projects</h3></Nav.Link>
