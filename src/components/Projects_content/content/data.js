@@ -12,7 +12,7 @@ const data = [
     {
         title:'Personal Portfolio',
         imageurl:'./project_images/project-img3.png',
-        gitlink:'https://github.com/manav-g27/portfolio'
+        gitlink:'https://github.com/manav-g27/Portfolio-React'
     }
 ]
 
