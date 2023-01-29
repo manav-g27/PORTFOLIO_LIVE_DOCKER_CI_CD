@@ -1,18 +1,18 @@
 const data = [
     {
-        title:'test',
+        title:'Amazon Clone',
         imageurl:'./project_images/project-img1.png',
-        gitlink:''
+        gitlink:'https://github.com/manav-g27/Amazon-clone'
     },
     {
-        title:'test',
+        title:'Elite Infosis',
         imageurl:'./project_images/project-img2.png',
-        gitlink:''
+        gitlink:'https://www.eliteinfosis.com/'
     },
     {
-        title:'test',
+        title:'Personal Portfolio',
         imageurl:'./project_images/project-img3.png',
-        gitlink:''
+        gitlink:'https://github.com/manav-g27/portfolio'
     }
 ]
 
