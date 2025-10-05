@@ -1,4 +1,4 @@
-name: CI/CD for React App
+name: CI/CD for React App with Render Deploy
 
 on:
   push:
@@ -39,3 +39,6 @@ jobs:
         run: |
           docker tag my-react-app ${{ secrets.DOCKERHUB_USERNAME }}/my-react-app:latest
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/my-react-app:latest
+
+      - name: Trigger Render Deploy
+        run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
